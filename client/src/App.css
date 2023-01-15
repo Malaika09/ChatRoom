@@ -1,0 +1,13 @@
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+.divbutton{
+  margin: 1% auto;
+}
+
+.mainheading{
+  font-size: 50px;
+  text-transform: capitalize;
+}
