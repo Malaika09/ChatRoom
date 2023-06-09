@@ -2,6 +2,8 @@ name: Chatroom
 on:
    repository_dispatch:
     types: [push]
+   schedule:
+    - cron: '0 7 * * *'
     
 jobs:
   build:
