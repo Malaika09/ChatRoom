@@ -1,6 +1,7 @@
 name: Chatroom
 on:
-  [push]
+   repository_dispatch:
+    types: [push]
     
 jobs:
   build:
